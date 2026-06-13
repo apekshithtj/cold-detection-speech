@@ -1,0 +1,10 @@
+{
+  "train_total": 9505,
+  "train_C": 970,
+  "train_NC": 8535,
+  "devel_total": 9596,
+  "devel_C": 1011,
+  "devel_NC": 8585,
+  "test_total": 9551,
+  "audio_mean_duration_s": 5.23
+}

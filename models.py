@@ -82,5 +82,5 @@ def evaluate(model, X_val: np.ndarray, y_val: np.ndarray,
         print(f"  {LABEL_NAMES[i]:4s}   {row}")
 
     per_class = recall_score(y_val, y_pred, average=None)
-    print(f"\n  Recall NC={per_class[0]:.4f}  C={per_class[1]:.4f}  → UAR={score:.4f}")
+    print(f"\n  Recall NC={per_class[0]:.4f}  C={per_class[1]:.4f}  -> UAR={score:.4f}")
     return score

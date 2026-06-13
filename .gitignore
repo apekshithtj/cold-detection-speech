@@ -1,5 +1,5 @@
 ﻿cache/
-output/
+output/*.pkl
 __pycache__/
 *.pyc
 *.pyo
@@ -7,3 +7,5 @@ check_imports.py
 smoke_test.py
 train_log.txt
 train_err.txt
+predict_log.txt
+predict_err.txt
